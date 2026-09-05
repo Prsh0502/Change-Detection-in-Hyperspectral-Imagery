@@ -1,0 +1,5 @@
+Pipeline_Configuration,OA_Percent,Kappa,Precision_Percent,Recall_Percent,F1_Percent
+Otsu (No Spatial Filter),92.87,0.7864,99.87,70.99,82.99
+Otsu + Spatial Regularization (Proposed),92.94,0.7889,99.69,71.39,83.2
+FCM (No Spatial Filter),92.87,0.7863,99.87,70.97,82.98
+FCM + Spatial Regularization,92.9,0.7875,99.69,71.22,83.09
