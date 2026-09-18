@@ -4,9 +4,9 @@ A hyperspectral dataset used for testing pseudo-binary and multi-class change de
 ## File Description
 All dataset files are in `.mat` format and can be loaded in MATLAB. **Not included in this repository** (see Data Access below) — only the small ground truth file and this project's own outputs are included directly.
 
-**_river_before_:** Hyperspectral image, date 1;
+**_river_before_:** Hyperspectral image;
 
-**_river_after_:** Hyperspectral image, date 2;
+**_river_after_:** Hyperspectral image;
 
 **_groundtruth_:** A binary reference map for evaluating change detection performance (two classes: change and no-change).
 
@@ -21,7 +21,7 @@ This dataset is made up of a pair of bitemporal hyperspectral images of a river 
 
 ![Detected change overlay](results/detection_accuracy_overlay.png)
 
-(a) Before; (b) After; (c) Ground Truth; (d) Detected change overlay — green = correct, red = false alarm, yellow = missed
+(a) Before; (b) After; (c) Ground Truth
 
 ## Class Information
 
