@@ -13,7 +13,7 @@ All dataset files are in `.mat` format and can be loaded in MATLAB. **Not includ
 ## Data Set Description
 This dataset is made up of a pair of bitemporal hyperspectral images of a river region, each sized 463×241 pixels with 198 spectral bands. The major land-cover changes in this scenario are due to shifting sediment/sandbar exposure and water level between the two acquisition dates.
 
-**Data Access:** The dataset is not included in this repository, as the raw `.mat` cubes are ~170 MB each and exceed GitHub's 100 MB file limit. Download the dataset from the GETNET benchmark source and place `river_before.mat`, `river_after.mat`, and `groundtruth.mat` in a `data/` folder before running the script in this repo.
+**Data Access:** The dataset is not included in this repository, as the raw `.mat` cubes exceed GitHub's 100 MB file limit. Download the dataset from the GETNET benchmark source and place `river_before.mat`, `river_after.mat`, and `groundtruth.mat` in a `data/` folder before running the script in this repo.
 
 ## Images
 
