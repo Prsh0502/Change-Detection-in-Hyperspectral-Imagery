@@ -17,9 +17,9 @@ This dataset is made up of a pair of bitemporal hyperspectral images of a river 
 
 ## Images
 
-![Before/After/Ground Truth](figures/before_after_groundtruth.png)
+![Before/After/Ground Truth](results/before_after_groundtruth.png)
 
-![Detected change overlay](figures/detection_accuracy_overlay.png)
+![Detected change overlay](results/detection_accuracy_overlay.png)
 
 (a) Before; (b) After; (c) Ground Truth; (d) Detected change overlay — green = correct, red = false alarm, yellow = missed
 
@@ -35,7 +35,7 @@ This dataset is made up of a pair of bitemporal hyperspectral images of a river 
 
 ## Project: Change Detection Pipeline
 
-This repository also includes a full change detection implementation (`change_detection_river.m`) built on the **Image Processing Toolbox™ Hyperspectral Imaging Library**, following a pseudo-binary detection → endmember extraction → hierarchical clustering → spectral matching pipeline. See `README_project.md` for full methodology, theory, and results, and `results.md` for the metrics table.
+This repository also includes a full change detection implementation (`change_detection_river.m`) built on the **Image Processing Toolbox™ Hyperspectral Imaging Library**, following a pseudo-binary detection → endmember extraction → hierarchical clustering → spectral matching pipeline. See `results.md` for the metrics table.
 
 **Summary of results:**
 
