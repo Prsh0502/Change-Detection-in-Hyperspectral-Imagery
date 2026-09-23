@@ -1,0 +1,7 @@
+*.asv
+*.m~
+*.log
+*.slxc
+slprj/
+*.mex*
+.SimulinkProject/
